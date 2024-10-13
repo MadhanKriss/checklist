@@ -1,9 +1,27 @@
-.container {
+body{
+    padding: none;
+    margin: none;
+    background: linear-gradient(to right,#3d52a0,#7091e6,#8697c4,#7091e6,#3d52a0)
+}
+.head {
     display: flex;
+    border-radius: 10px;
+    background: radial-gradient(circle,#ede8f5,#adbbda) ;
 }
 
 .box {
-    padding: 20px;
-    background-color: lightblue;
-    margin-right: 10px; /* Space between boxes */
+    width: 100%;
+    line-height: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 3%;
+}
+
+img {
+    height: 50px;
+} 
+
+.mid-frame {
+    display: flex;
 }
